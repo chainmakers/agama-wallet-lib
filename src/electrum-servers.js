@@ -10,6 +10,61 @@ let electrumServers = {
       'electrum2.cipig.net:10011'
     ],
   },
+   chain: { // !estimatefee
+    address: 'electrum1.chainmakers.co',
+    port: 55417,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'CHAIN',
+    serverList: [
+      'electrum1.chainmakers.co:55417',
+      'electrum2.chainmakers.co:55417'
+    ],
+ },
+  eql: { // !estimatefee
+    address:'159.65.91.235',
+    port: 10801,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'EQL',
+    serverList: [
+      '159.65.91.235:10801',
+      '167.99.204.42:10801'
+    ],
+},
+   glxt: { // !estimatefee
+    address: 'electrum1.glx.co',
+    port: 60012,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'GLXT',
+    serverList: [
+      'electrum1.glx.co:60012',
+      'electrum2.glx.co:60012'
+    ],
+  },
+  oot: { // !estimatefee
+    address: 'electrum1.utrum.io',
+    port: 10088,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'OOT',
+    serverList: [
+      'electrum1.utrum.io:10088',
+      'electrum2.utrum.io:10088'
+    ],
+  },
+  bntn: { // !estimatefee
+    address: 'electrum1.cipig.net',
+    port: 10026,
+    proto: 'tcp',
+    txfee: 10000,
+    abbr: 'BNTN',
+    serverList: [
+      'electrum1.cipig.net:10026',
+      'electrum2.cipig.net:10026'
+    ],
+  },
   revs: { // !estimatefee
     address: 'electrum1.cipig.net',
     port: 10003,
